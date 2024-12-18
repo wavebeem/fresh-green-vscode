@@ -1,0 +1,5 @@
+# Icon info
+
+Made via IconKitchen
+
+- [Edit icon](https://icon.kitchen/i/H4sIAAAAAAAAA0WQu27DMAxF%2F4VdvRSIO3gt0LloshVFQVuUTYQWXVlqGwT%2B91BKkGjQ4wi490hn%2BEXJtEJ3BofxeJhoJug8ykoN9OOrikbo4Gnn8KVtoQH%2FYL6OKxNeMKYSs5ItoDkJB3J2y4MGI6IDyreLHI6wlezDabEqGGpcAfsJK1l%2FMkYylIqNu%2Bv48R2d4zCWmqQLdM9tA5HHyRrLtteUdL7uhXylVuXvVTfLiui%2FeO729fSmocp7nFlOxj%2FUwrRoqZhBitkEOKHwcPPZLHlWl6X83idgcFG5vldXm%2F%2Boh6%2FtAp6TtxJgAQAA)
