@@ -36,8 +36,8 @@ const ui = {
   fg: oklch(30, 60, 149),
   fg2: oklch(40, 60, 149),
 
-  bg0: oklch(100, 5, 83),
-  bg0b: oklch(100, 5, 83),
+  bg0: oklch(100, 0, 149),
+  bg0b: oklch(100, 0, 149),
   bg1: oklch(94, 10, 149),
 
   border0: oklch(84, 24, 149),
@@ -67,7 +67,7 @@ const ui = {
 
   accent: oklch(50, 50, 290),
 
-  bracket1: oklch(50, 40, 170),
+  bracket1: oklch(50, 40, 149),
   bracket2: oklch(50, 40, 250),
   bracket3: oklch(50, 40, 340),
 
@@ -373,7 +373,7 @@ function themeHighlightBorders() {
 function themeScrollbar() {
   return {
     "scrollbar.shadow": ui.shadow,
-    "scrollbarSlider.background": alpha(ui.border0, 20),
+    "scrollbarSlider.background": alpha(ui.border0, 40),
     "scrollbarSlider.hoverBackground": alpha(ui.border0, 50),
     "scrollbarSlider.activeBackground": alpha(ui.border0, 60),
   };
@@ -519,10 +519,10 @@ function themeTabs() {
     "breadcrumb.background": ui.bg0,
     "editorGroupHeader.noTabsBackground": ui.bg0,
     "editorGroupHeader.tabsBackground": ui.bg0,
-    "tab.activeBorder": ui.accent,
-    "tab.unfocusedActiveBorder": ui.accent,
-    "tab.activeBorderTop": transparent,
-    "tab.unfocusedActiveBorderTop": transparent,
+    "tab.activeBorder": transparent,
+    "tab.unfocusedActiveBorder": transparent,
+    "tab.activeBorderTop": ui.accent,
+    "tab.unfocusedActiveBorderTop": ui.accent,
     "tab.activeBackground": alpha(ui.accent, 5),
     "tab.activeForeground": ui.fg,
     "tab.inactiveBackground": ui.bg0,
