@@ -513,18 +513,18 @@ function themeTitlebar() {
 
 function themeTabs() {
   return {
-    "tab.border": ui.border0,
+    "tab.border": ui.bg0,
     "editorGroupHeader.tabsBorder": ui.border0,
     "editorGroupHeader.border": ui.border0,
     "breadcrumb.background": ui.bg0,
     "editorGroupHeader.noTabsBackground": ui.bg0,
     "editorGroupHeader.tabsBackground": ui.bg0,
-    "tab.activeBorder": transparent,
-    "tab.unfocusedActiveBorder": transparent,
-    "tab.activeBorderTop": ui.accent,
-    "tab.unfocusedActiveBorderTop": ui.accent,
-    "tab.activeBackground": alpha(ui.accent, 5),
-    "tab.activeForeground": ui.fg,
+    "tab.activeBorder": ui.accent,
+    "tab.unfocusedActiveBorder": ui.accent,
+    "tab.activeBorderTop": transparent,
+    "tab.unfocusedActiveBorderTop": transparent,
+    "tab.activeBackground": alpha(ui.accent, 10),
+    "tab.activeForeground": ui.accent,
     "tab.inactiveBackground": ui.bg0,
     "tab.inactiveForeground": ui.fg,
   };
