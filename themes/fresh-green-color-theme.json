@@ -105,7 +105,7 @@
     "gitDecoration.deletedResourceForeground": "#d2004f",
     "gitDecoration.ignoredResourceForeground": "#003c024d",
     "gitDecoration.modifiedResourceForeground": "#70f",
-    "gitDecoration.untrackedResourceForeground": "#845b00",
+    "gitDecoration.untrackedResourceForeground": "#c3009b",
     "icon.foreground": "#003c02",
     "input.background": "#fff",
     "input.border": "#00882b",
