@@ -49,9 +49,9 @@ const ui = {
   },
 
   statusbar: {
-    bg: oklch(64, 44, 149),
+    bg: oklch(49, 44, 149),
     fg: oklch(100, 0, 0),
-    border: oklch(54, 44, 149),
+    border: oklch(44, 44, 149),
     // bg: oklch(90, 40, 290),
     // fg: oklch(45, 40, 290),
     // border: oklch(82, 40, 290),
@@ -534,7 +534,7 @@ function colors() {
   return {
     focusBorder: ui.accent,
     errorForeground: terminal.red,
-    disabledForeground: ui.border1,
+    disabledForeground: alpha(ui.fg, 30),
     "icon.foreground": ui.fg,
     "toolbar.hoverBackground": alpha(ui.border0, 20),
     "toolbar.activeBackground": alpha(ui.border0, 30),
