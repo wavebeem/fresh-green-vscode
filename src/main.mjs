@@ -48,13 +48,16 @@ const ui = {
     border: oklch(60, 10, 83),
   },
 
+  titlebar: {
+    bg: oklch(94, 10, 149),
+    fg: oklch(30, 60, 149),
+    border: oklch(84, 24, 149),
+  },
+
   statusbar: {
-    bg: oklch(49, 44, 149),
-    fg: oklch(100, 0, 0),
-    border: oklch(44, 44, 149),
-    // bg: oklch(90, 40, 290),
-    // fg: oklch(45, 40, 290),
-    // border: oklch(82, 40, 290),
+    bg: oklch(94, 10, 149),
+    fg: oklch(30, 60, 149),
+    border: oklch(84, 24, 149),
   },
 
   cursor: oklch(50, 100, 340),
@@ -503,11 +506,11 @@ function themeEditor() {
 
 function themeTitlebar() {
   return {
-    "titleBar.activeBackground": ui.bg1,
-    "titleBar.activeForeground": ui.fg,
-    "titleBar.inactiveBackground": ui.bg1,
-    "titleBar.inactiveForeground": ui.fg,
-    "titleBar.border": ui.border0,
+    "titleBar.activeBackground": ui.titlebar.bg,
+    "titleBar.activeForeground": ui.titlebar.fg,
+    "titleBar.inactiveBackground": ui.titlebar.bg,
+    "titleBar.inactiveForeground": ui.titlebar.fg,
+    "titleBar.border": ui.titlebar.border,
   };
 }
 
@@ -588,13 +591,13 @@ function colors() {
 
 function themeCommandCenter() {
   return {
-    "commandCenter.foreground": ui.fg,
-    "commandCenter.inactiveForeground": ui.fg,
-    "commandCenter.background": ui.bg1,
-    "commandCenter.border": ui.border0,
-    "commandCenter.inactiveBorder": ui.border0,
-    "commandCenter.activeBackground": ui.bg1,
-    "commandCenter.activeBorder": ui.border0,
+    "commandCenter.foreground": ui.titlebar.fg,
+    "commandCenter.inactiveForeground": ui.titlebar.fg,
+    "commandCenter.background": ui.titlebar.bg,
+    "commandCenter.border": ui.titlebar.border,
+    "commandCenter.inactiveBorder": ui.titlebar.border,
+    "commandCenter.activeBackground": ui.titlebar.bg,
+    "commandCenter.activeBorder": ui.titlebar.border,
   };
 }
 

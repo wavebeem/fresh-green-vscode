@@ -2,7 +2,7 @@
   "name": "fresh-green-vscode",
   "displayName": "Fresh Green Theme",
   "description": "A light theme inspired by fresh white and bold green.",
-  "version": "1.6.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/wavebeem/fresh-green-vscode.git"
